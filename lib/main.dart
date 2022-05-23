@@ -1,5 +1,5 @@
 import 'package:demo/constants.dart';
-import 'package:demo/views/home_screen.dart';
+import 'package:demo/views/landing_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -14,5 +14,5 @@ void main() async {
       theme: themeController.light,
       darkTheme: themeController.dark,
       themeMode: themeController.theme,
-      home: const HomeScreen()));
+      home: LandingScreen()));
 }
