@@ -128,6 +128,8 @@ class HomeScreen extends StatelessWidget {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 10.0),
                                 child: TextFormField(
+                                  style:
+                                      const TextStyle(color: Color(0xFF2D5E70)),
                                   controller: loginController.loginUserName,
                                   validator: (value) {
                                     if (value == null ||
@@ -161,6 +163,8 @@ class HomeScreen extends StatelessWidget {
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 10.0),
                                 child: TextFormField(
+                                  style:
+                                      const TextStyle(color: Color(0xFF2D5E70)),
                                   controller: loginController.loginPassword,
                                   validator: (value) {
                                     if (value == null ||

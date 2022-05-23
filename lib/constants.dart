@@ -18,6 +18,6 @@ LandingScreenController landingController = LandingScreenController.instance;
 
 initializeControllers() {
   Get.put(ThemeController(), permanent: true);
-  Get.put(LoginController(), permanent: true);
   Get.put(LandingScreenController(), permanent: true);
+  Get.put(LoginController(), permanent: true);
 }

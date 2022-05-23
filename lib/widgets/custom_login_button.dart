@@ -21,7 +21,7 @@ class CustomLoginButton extends StatelessWidget {
       },
       child: Container(
         width: MediaQuery.of(context).size.width * 0.65,
-        height: 40,
+        height: 45,
         color: color,
         child: Row(
           children: [

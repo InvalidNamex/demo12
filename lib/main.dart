@@ -14,5 +14,5 @@ void main() async {
       theme: themeController.light,
       darkTheme: themeController.dark,
       themeMode: themeController.theme,
-      home: LandingScreen()));
+      home: const LandingScreen()));
 }
